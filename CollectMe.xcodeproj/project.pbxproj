@@ -14,6 +14,7 @@
 		D2FEE1E51AD6402E00554860 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2FEE1E41AD6402E00554860 /* Images.xcassets */; };
 		D2FEE1E81AD6402E00554860 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2FEE1E61AD6402E00554860 /* LaunchScreen.xib */; };
 		D2FEE1F41AD6402E00554860 /* CollectMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FEE1F31AD6402E00554860 /* CollectMeTests.m */; };
+		D2FEE1FF1AD6442200554860 /* WeekCalendarLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FEE1FE1AD6442200554860 /* WeekCalendarLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D2FEE1ED1AD6402E00554860 /* CollectMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FEE1F21AD6402E00554860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2FEE1F31AD6402E00554860 /* CollectMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectMeTests.m; sourceTree = "<group>"; };
+		D2FEE1FD1AD6442200554860 /* WeekCalendarLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekCalendarLayout.h; sourceTree = "<group>"; };
+		D2FEE1FE1AD6442200554860 /* WeekCalendarLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekCalendarLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				D2FEE1DB1AD6402E00554860 /* AppDelegate.h */,
 				D2FEE1DC1AD6402E00554860 /* AppDelegate.m */,
 				D2FEE1DE1AD6402E00554860 /* ViewController.h */,
+				D2FEE1FD1AD6442200554860 /* WeekCalendarLayout.h */,
+				D2FEE1FE1AD6442200554860 /* WeekCalendarLayout.m */,
 				D2FEE1DF1AD6402E00554860 /* ViewController.m */,
 				D2FEE1E11AD6402E00554860 /* Main.storyboard */,
 				D2FEE1E41AD6402E00554860 /* Images.xcassets */,
@@ -222,6 +227,7 @@
 				D2FEE1E01AD6402E00554860 /* ViewController.m in Sources */,
 				D2FEE1DD1AD6402E00554860 /* AppDelegate.m in Sources */,
 				D2FEE1DA1AD6402E00554860 /* main.m in Sources */,
+				D2FEE1FF1AD6442200554860 /* WeekCalendarLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

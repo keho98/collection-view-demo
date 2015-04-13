@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WeekCalendarLayout.h
 //  CollectMe
 //
 //  Created by Kevin Ho on 4/8/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UICollectionViewController
-
+@interface WeekCalendarLayout : UICollectionViewLayout
 
 @end
-
