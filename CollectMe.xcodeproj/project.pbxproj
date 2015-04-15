@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2D9214A1ADE437D00333E7F /* CalendarDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D921491ADE437D00333E7F /* CalendarDataSource.m */; };
 		D2FEE1DA1AD6402E00554860 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FEE1D91AD6402E00554860 /* main.m */; };
 		D2FEE1DD1AD6402E00554860 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FEE1DC1AD6402E00554860 /* AppDelegate.m */; };
 		D2FEE1E01AD6402E00554860 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FEE1DF1AD6402E00554860 /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D2D921481ADE437D00333E7F /* CalendarDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDataSource.h; sourceTree = "<group>"; };
+		D2D921491ADE437D00333E7F /* CalendarDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDataSource.m; sourceTree = "<group>"; };
 		D2FEE1D41AD6402E00554860 /* CollectMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FEE1D81AD6402E00554860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2FEE1D91AD6402E00554860 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				D2FEE1DE1AD6402E00554860 /* ViewController.h */,
 				D2FEE1FD1AD6442200554860 /* WeekCalendarLayout.h */,
 				D2FEE1FE1AD6442200554860 /* WeekCalendarLayout.m */,
+				D2D921481ADE437D00333E7F /* CalendarDataSource.h */,
+				D2D921491ADE437D00333E7F /* CalendarDataSource.m */,
 				D2FEE1DF1AD6402E00554860 /* ViewController.m */,
 				D2FEE1E11AD6402E00554860 /* Main.storyboard */,
 				D2FEE1E41AD6402E00554860 /* Images.xcassets */,
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2FEE1E01AD6402E00554860 /* ViewController.m in Sources */,
+				D2D9214A1ADE437D00333E7F /* CalendarDataSource.m in Sources */,
 				D2FEE1DD1AD6402E00554860 /* AppDelegate.m in Sources */,
 				D2FEE1DA1AD6402E00554860 /* main.m in Sources */,
 				D2FEE1FF1AD6442200554860 /* WeekCalendarLayout.m in Sources */,
@@ -420,6 +426,7 @@
 				D2FEE1F91AD6402E00554860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2FEE1FA1AD6402E00554860 /* Build configuration list for PBXNativeTarget "CollectMeTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +435,7 @@
 				D2FEE1FC1AD6402E00554860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

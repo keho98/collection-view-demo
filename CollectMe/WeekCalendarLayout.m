@@ -79,6 +79,23 @@ static const CGFloat HourHeaderWidth = 100;
     return layoutAttributes;
 }
 
+/* Provides layout attributes for a single index path, should at least 
+   change the frame attribute to ensure cells don't stack. Note that
+   frame must be changed, auto layout will not work for cells, even
+   if auto layout was used for the collection view.
+ */
+
+- (UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:
+(NSIndexPath *)indexPath
+{
+    CalendarDataSource *dataSource = self.collectionView.dataSource;
+    id<CalendarEvent> event = [dataSource eventAtIndexPath:indexPath];
+    UICollectionViewLayoutAttributes *attributes =
+    [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
+    attributes.frame = [self frameForEvent:event];
+    return attributes;
+}
+
 #pragma mark - Helpers
 
 - (NSArray *)indexPathsOfItemsInRect:(CGRect)rect
