@@ -96,9 +96,19 @@ static const CGFloat HourHeaderWidth = 100;
     return attributes;
 }
 
+/* 
+ *   Only invalidate layout if bounds change, important as
+ *   bounds could change many times per second, such as when
+ *   scrolling.
+ */
+
 - (BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds
 {
-    return YES;
+    CGRect oldBounds = self.collectionView.bounds;
+    if (CGRectGetWidth(newBounds) != CGRectGetWidth(oldBounds)) {
+        return YES;
+    }
+    return NO;
 }
 
 /* Provides layout attributes for a single index path, should at least 
