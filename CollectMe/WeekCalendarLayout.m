@@ -79,6 +79,28 @@ static const CGFloat HourHeaderWidth = 100;
     return layoutAttributes;
 }
 
+- (UICollectionViewLayoutAttributes *)layoutAttributesForSupplementaryViewOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
+{
+    UICollectionViewLayoutAttributes *attributes = [UICollectionViewLayoutAttributes layoutAttributesForSupplementaryViewOfKind:kind withIndexPath:indexPath];
+    
+    CGFloat totalWidth = [self collectionViewContentSize].width;
+    if ([kind isEqualToString:@"DayHeaderView"]) {
+        CGFloat availableWidth = totalWidth - HourHeaderWidth;
+        CGFloat widthPerDay = availableWidth / DaysPerWeek;
+        attributes.frame = CGRectMake(HourHeaderWidth + (widthPerDay * indexPath.item), 0, widthPerDay, DayHeaderHeight);
+        attributes.zIndex = -10;
+    } else if ([kind isEqualToString:@"HourHeaderView"]) {
+        attributes.frame = CGRectMake(0, DayHeaderHeight + HeightPerHour * indexPath.item, totalWidth, HeightPerHour);
+        attributes.zIndex = -10;
+    }
+    return attributes;
+}
+
+- (BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds
+{
+    return YES;
+}
+
 /* Provides layout attributes for a single index path, should at least 
    change the frame attribute to ensure cells don't stack. Note that
    frame must be changed, auto layout will not work for cells, even
