@@ -112,10 +112,11 @@ static const CGFloat HourHeaderWidth = 100;
     return NO;
 }
 
-/* Provides layout attributes for a single index path, should at least 
-   change the frame attribute to ensure cells don't stack. Note that
-   frame must be changed, auto layout will not work for cells, even
-   if auto layout was used for the collection view.
+/* 
+ * Provides layout attributes for a single index path, should at least
+ * change the frame attribute to ensure cells don't stack. Note that
+ * frame must be changed, auto layout will not work for cells, even
+ * if auto layout was used for the collection view.
  */
 
 - (UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:
@@ -126,6 +127,22 @@ static const CGFloat HourHeaderWidth = 100;
     UICollectionViewLayoutAttributes *attributes =
     [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
     attributes.frame = [self frameForEvent:event];
+    attributes.alpha = 0.8;
+    
+    return attributes;
+}
+
+/* Animation
+ * Use initialLayout... methods for inserting animation and 
+ * finalLayout... methods for deletion.
+ */
+
+- (UICollectionViewLayoutAttributes *)initialLayoutAttributesForAppearingItemAtIndexPath:(NSIndexPath *)itemIndexPath
+{
+    UICollectionViewLayoutAttributes *attributes = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:itemIndexPath];
+    
+    attributes.alpha = 0.0;
+    
     return attributes;
 }
 
