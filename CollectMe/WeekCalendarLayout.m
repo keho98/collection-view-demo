@@ -7,6 +7,7 @@
 //  Basically a copy of objc.io collection view article
 //
 
+#import "CalendarDataSource.h"
 #import "WeekCalendarLayout.h"
 
 static const NSUInteger DaysPerWeek = 7;
