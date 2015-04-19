@@ -1,16 +1,3 @@
-Skip to content
-This repository
-Pull requests
-Issues
-Gist
-@keho98
-Watch 6
-Unstar 59
-Fork 21objcio/issue-3-collection-view-layouts
-branch: master  issue-3-collection-view-layouts/Calendar/CalendarDataSource.m
-Florian Kugler on Aug 8, 2013 Initial commit
-0 contributors
-RawBlameHistory     90 lines (71 sloc)  3.015 kb
 //
 //  CalendarDataSource.m
 //  Calendar
@@ -100,5 +87,4 @@ RawBlameHistory     90 lines (71 sloc)  3.015 kb
 }
 
 @end
-Status API Training Shop Blog About
-© 2015 GitHub, Inc. Terms Privacy Security Contact
+

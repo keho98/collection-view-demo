@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		D2D2BF561AE435C700DFB637 /* CalendarDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D2BF551AE435C700DFB637 /* CalendarDataSource.m */; };
 		D2D2BF591AE435FE00DFB637 /* CalendarEventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D2BF581AE435FE00DFB637 /* CalendarEventCell.m */; };
+		D2D2BF5C1AE4389E00DFB637 /* SampleCalendarEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D2BF5B1AE4389E00DFB637 /* SampleCalendarEvent.m */; };
+		D2D2BF5F1AE438D900DFB637 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D2BF5E1AE438D900DFB637 /* HeaderView.m */; };
+		D2D2BF611AE4391400DFB637 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2D2BF601AE4391400DFB637 /* HeaderView.xib */; };
+		D2D2BF631AE43A1600DFB637 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D2BF621AE43A1600DFB637 /* MainStoryboard.storyboard */; };
+		D2D2BF661AE43A5500DFB637 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D2BF651AE43A5500DFB637 /* CalendarViewController.m */; };
 		D2FEE1DA1AD6402E00554860 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FEE1D91AD6402E00554860 /* main.m */; };
 		D2FEE1DD1AD6402E00554860 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FEE1DC1AD6402E00554860 /* AppDelegate.m */; };
 		D2FEE1E01AD6402E00554860 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FEE1DF1AD6402E00554860 /* ViewController.m */; };
-		D2FEE1E31AD6402E00554860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2FEE1E11AD6402E00554860 /* Main.storyboard */; };
 		D2FEE1E51AD6402E00554860 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2FEE1E41AD6402E00554860 /* Images.xcassets */; };
 		D2FEE1E81AD6402E00554860 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2FEE1E61AD6402E00554860 /* LaunchScreen.xib */; };
 		D2FEE1F41AD6402E00554860 /* CollectMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FEE1F31AD6402E00554860 /* CollectMeTests.m */; };
@@ -35,6 +39,14 @@
 		D2D2BF551AE435C700DFB637 /* CalendarDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDataSource.m; sourceTree = "<group>"; };
 		D2D2BF571AE435FE00DFB637 /* CalendarEventCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarEventCell.h; sourceTree = "<group>"; };
 		D2D2BF581AE435FE00DFB637 /* CalendarEventCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarEventCell.m; sourceTree = "<group>"; };
+		D2D2BF5A1AE4389E00DFB637 /* SampleCalendarEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCalendarEvent.h; sourceTree = "<group>"; };
+		D2D2BF5B1AE4389E00DFB637 /* SampleCalendarEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleCalendarEvent.m; sourceTree = "<group>"; };
+		D2D2BF5D1AE438D900DFB637 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		D2D2BF5E1AE438D900DFB637 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		D2D2BF601AE4391400DFB637 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		D2D2BF621AE43A1600DFB637 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D2D2BF641AE43A5500DFB637 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		D2D2BF651AE43A5500DFB637 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
 		D2FEE1D41AD6402E00554860 /* CollectMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FEE1D81AD6402E00554860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2FEE1D91AD6402E00554860 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,7 +54,6 @@
 		D2FEE1DC1AD6402E00554860 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D2FEE1DE1AD6402E00554860 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D2FEE1DF1AD6402E00554860 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D2FEE1E21AD6402E00554860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2FEE1E41AD6402E00554860 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D2FEE1E71AD6402E00554860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D2FEE1ED1AD6402E00554860 /* CollectMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +102,9 @@
 		D2FEE1D61AD6402E00554860 /* CollectMe */ = {
 			isa = PBXGroup;
 			children = (
+				D2D2BF621AE43A1600DFB637 /* MainStoryboard.storyboard */,
+				D2D2BF5A1AE4389E00DFB637 /* SampleCalendarEvent.h */,
+				D2D2BF5B1AE4389E00DFB637 /* SampleCalendarEvent.m */,
 				D2D2BF571AE435FE00DFB637 /* CalendarEventCell.h */,
 				D2D2BF581AE435FE00DFB637 /* CalendarEventCell.m */,
 				D2FEE1DB1AD6402E00554860 /* AppDelegate.h */,
@@ -102,10 +116,14 @@
 				D2D2BF551AE435C700DFB637 /* CalendarDataSource.m */,
 				D2D2BF531AE4357800DFB637 /* CalendarEvent.h */,
 				D2FEE1DF1AD6402E00554860 /* ViewController.m */,
-				D2FEE1E11AD6402E00554860 /* Main.storyboard */,
 				D2FEE1E41AD6402E00554860 /* Images.xcassets */,
 				D2FEE1E61AD6402E00554860 /* LaunchScreen.xib */,
 				D2FEE1D71AD6402E00554860 /* Supporting Files */,
+				D2D2BF5D1AE438D900DFB637 /* HeaderView.h */,
+				D2D2BF5E1AE438D900DFB637 /* HeaderView.m */,
+				D2D2BF601AE4391400DFB637 /* HeaderView.xib */,
+				D2D2BF641AE43A5500DFB637 /* CalendarViewController.h */,
+				D2D2BF651AE43A5500DFB637 /* CalendarViewController.m */,
 			);
 			path = CollectMe;
 			sourceTree = "<group>";
@@ -216,9 +234,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2FEE1E31AD6402E00554860 /* Main.storyboard in Resources */,
 				D2FEE1E81AD6402E00554860 /* LaunchScreen.xib in Resources */,
 				D2FEE1E51AD6402E00554860 /* Images.xcassets in Resources */,
+				D2D2BF631AE43A1600DFB637 /* MainStoryboard.storyboard in Resources */,
+				D2D2BF611AE4391400DFB637 /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2D2BF591AE435FE00DFB637 /* CalendarEventCell.m in Sources */,
+				D2D2BF661AE43A5500DFB637 /* CalendarViewController.m in Sources */,
+				D2D2BF5C1AE4389E00DFB637 /* SampleCalendarEvent.m in Sources */,
 				D2FEE1E01AD6402E00554860 /* ViewController.m in Sources */,
+				D2D2BF5F1AE438D900DFB637 /* HeaderView.m in Sources */,
 				D2D2BF561AE435C700DFB637 /* CalendarDataSource.m in Sources */,
 				D2FEE1DD1AD6402E00554860 /* AppDelegate.m in Sources */,
 				D2FEE1DA1AD6402E00554860 /* main.m in Sources */,
@@ -264,14 +286,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D2FEE1E11AD6402E00554860 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2FEE1E21AD6402E00554860 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D2FEE1E61AD6402E00554860 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
